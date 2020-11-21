@@ -1,0 +1,10 @@
+name: Spigot-Party-Data-Callback-API-Example
+version: ${project.version}
+author: Simonsator
+depend: [PartyAndFriendsGUI]
+main: de.simonsator.partyandfriends.apiexample.ExamplePlugin
+description: An example for the spigot party callback api
+commands:
+  partyapiexample:
+    description: This is a demo command.
+    usage: /<command>
