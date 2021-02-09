@@ -27,6 +27,11 @@ public class ExamplePlugin extends JavaPlugin {
 						pPlayer.sendMessage("You are not in a party");
 					}
 				}
+
+				@Override
+				public void onTimeout(int pId) {
+					sender.sendMessage("A timeout occurred, as no data was received after two seconds.");
+				}
 			});
 			return true;
 		}
